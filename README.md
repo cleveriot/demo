@@ -1,2 +1,2 @@
-# demo
-Public repo with Github features to demonstration of CI/CD capabilities
+# Workshop API - Python FastAPI
+Public repo with material and code for Python FastAPI workshop
