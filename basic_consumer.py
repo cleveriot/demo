@@ -18,7 +18,7 @@ from aimodule import summarize, get_tokens
 
 # Global variables
 TOKEN = os.getenv('SECRET_TOKEN')
-BASE_URL = "http://vps-b30e981b.vps.ovh.net:50005/api/v1"
+BASE_URL = os.getenv('BASE_URL')
 HEADERS = {'Content-Type': 'application/json', 'Authorization': f"Bearer {TOKEN}"}
 
 
